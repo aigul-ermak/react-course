@@ -12,7 +12,6 @@ const EmployeesListItem = (props) => {
     }
     if (rise) {
         classNames += ' like';
-
     }
 
     return (

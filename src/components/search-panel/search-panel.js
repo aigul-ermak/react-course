@@ -13,7 +13,6 @@ class SearchPanel extends Component {
         const term = e.currentTarget.value;
         this.setState({term})
         this.props(term)
-
     }
 
     render() {
@@ -24,7 +23,6 @@ class SearchPanel extends Component {
                    value={this.state.term}
                    onChange={this.onUpdatedSearch}/>
         )
-
     }
 }
 

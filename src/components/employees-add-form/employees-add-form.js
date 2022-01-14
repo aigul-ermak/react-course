@@ -2,7 +2,6 @@ import {Component} from 'react';
 
 import './employees-add-form.css';
 
-
 class EmployeesAddForm extends Component {
     constructor(props) {
         super(props);
@@ -26,8 +25,6 @@ class EmployeesAddForm extends Component {
                 name: '',
                 salary: ''
             })
-
-
     }
 
     render() {
@@ -52,8 +49,7 @@ class EmployeesAddForm extends Component {
                            onChange={this.onValueChange}/>
 
                     <button type="submit"
-                            className="btn btn-outline-light"
-                    >Add
+                            className="btn btn-outline-light">Add
                     </button>
                 </form>
             </div>
